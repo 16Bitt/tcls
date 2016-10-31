@@ -1,0 +1,30 @@
+* {
+	color: grey;
+}
+
+body {
+	background-color: lightblue;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.content {
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.content-header {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16pt;
+}
+
+.content-body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
