@@ -8,6 +8,11 @@ body {
 	margin-right: 10%;
 }
 
+.warning {
+	color: red;
+	background-color: pink !important;
+}
+
 .content {
 	background-color: white;
 	border: 1px solid grey;

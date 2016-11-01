@@ -7,7 +7,9 @@ source "./contentTypes.tcl"
 source "./config.tcl"
 
 proc handleRequest {channel path} {
+	#Request path
 	set path [resolvePath $path]
+	#Request content type
 	set ctype [getType $path]
 	writeFile $channel "./$path" "$ctype" "200 OK"
 }
